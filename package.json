@@ -1,0 +1,28 @@
+{
+  "author": "Derek Reynolds <drk@diy.org> (http://diy.org/drk)",
+  "name": "handlebars-helpers",
+  "description": "Collection of generic handlebars helpers.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/diy/handlebars-helpers",
+  "repository": {
+    "type": "git",
+    "url": "diy/handlebars-helpers"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "dependencies": {
+    "async": "~0.1.22",
+    "lodash": "~0.8.1",
+    "pack-it": "~1.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1",
+    "codebux": "~0.1.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
