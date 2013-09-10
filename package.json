@@ -1,6 +1,6 @@
 {
   "author": "Derek Reynolds <drk@diy.org> (http://diy.org/drk)",
-  "name": "handlebars-helpers",
+  "name": "diy-handlebars-helpers",
   "description": "Collection of generic handlebars helpers.",
   "version": "1.0.0",
   "homepage": "https://github.com/diy/handlebars-helpers",

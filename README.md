@@ -1,14 +1,14 @@
-## handlebars\-helpers
+## diy-handlebars-helpers
 #### Collection of generic handlebars helpers.
 
 ### Installation
 ```bash
-npm install handlebars\-helpers
+npm install diy-handlebars-helpers
 ```
 
 ### Basic Use
 ```javascript
-var handlebars\-helpers    = require('handlebars\-helpers');
+var handlebars-helpers    = require('diy-handlebars-helpers');
 ```
 
 ### Testing

@@ -1,0 +1,30 @@
+module.exports = function () {
+    return {
+        'abbr-count': require('./helpers/abbr-count.js'),
+        'capitalize': require('./helpers/capitalize.js'),
+        'chr-gt': require('./helpers/chr-gt.js'),
+        'chr-lt': require('./helpers/chr-lt.js'),
+        'each-key': require('./helpers/each-key.js'),
+        'each-limit': require('./helpers/each-limit.js'),
+        'each-reverse': require('./helpers/each-reverse.js'),
+        'either': require('./helpers/either.js'),
+        'encodeURIComponent': require('./helpers/encodeURIComponent.js'),
+        'eq': require('./helpers/eq.js'),
+        'firstof': require('./helpers/firstof.js'),
+        'if-gt': require('./helpers/if-gt.js'),
+        'if-lt': require('./helpers/if-lt.js'),
+        'indefinite-article': require('./helpers/indefinite-article.js'),
+        'input-select': require('./helpers/input-select.js'),
+        'iter': require('./helpers/iter.js'),
+        'join': require('./helpers/join.js'),
+        'neither': require('./helpers/neither.js'),
+        'not-eq': require('./helpers/not-eq.js'),
+        'number': require('./helpers/number.js'),
+        'paragraphify': require('./helpers/paragraphify.js'),
+        'possessive': require('./helpers/possessive.js'),
+        'repeat': require('./helpers/repeat.js'),
+        'subtract': require('./helpers/subtract.js'),
+        'title-case': require('./helpers/title-case.js'),
+        'urlify': require('./helpers/urlify.js')
+    }
+};
