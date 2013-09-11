@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/diy/handlebars-helpers.png?branch=master)](https://travis-ci.org/diy/handlebars-helpers)
+
 ## diy-handlebars-helpers
 #### Collection of generic handlebars helpers.
 
