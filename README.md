@@ -158,6 +158,7 @@ The third optional argument is the default value. (will get the `selected` attri
 {{else}}
     // here not so much
 {{/not-eq}}
+```
 
 #### number
 ```
