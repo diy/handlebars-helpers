@@ -15,7 +15,8 @@
   "dependencies": {
     "async": "~0.1.22",
     "lodash": "~0.8.1",
-    "pack-it": "~1.0.0"
+    "pack-it": "~1.0.0",
+    "require-all": "0.0.8"
   },
   "devDependencies": {
     "tap": "~0.3.1",
