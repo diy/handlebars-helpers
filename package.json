@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "async": "~0.1.22",
-    "lodash": "~0.8.1",
+    "lodash": "~1.3.1",
     "pack-it": "~1.0.0",
     "require-all": "0.0.8"
   },
