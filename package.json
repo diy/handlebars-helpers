@@ -2,6 +2,10 @@
   "author": "Derek Reynolds <drk@diy.org> (http://diy.org/drk)",
   "name": "diy-handlebars-helpers",
   "description": "Collection of generic handlebars helpers.",
+  "license": {
+    "type": "Apache-2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
   "version": "1.0.4",
   "homepage": "https://github.com/diy/handlebars-helpers",
   "repository": {
