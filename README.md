@@ -210,6 +210,14 @@ The third optional argument is the default value. (will get the `selected` attri
 {{title-case 'hey hey hey'}} // "Hey Hey Hey"
 ```
 
+#### truncate
+```
+{{truncate 'mysuperlongemail@example.com'}} // "mysuperlon…"
+{{truncate 'mysuperlongemail@example.com' 16}} // "mysuperlongemail…"
+{{truncate 'mysuperlongemail@example.com' 16 ''}} // "mysuperlongemail"
+{{truncate 'Some sente nce with a space at truncation index.'}} // "Some sente…" - trims trailing whitespace before appending
+```
+
 #### urlify
 ```
 {{urlify 'Hey Hey'}} // "hey-hey"
