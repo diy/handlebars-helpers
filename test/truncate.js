@@ -22,3 +22,9 @@ test('custom append', function (t) {
     t.equals(truncate(testString, 10, ''), 'This is lo', 'should not append anything');
     t.equals(truncate(testString, 10, 'hey'), 'This is lohey', 'should append "hey"');
 });
+
+test('email addresses', function (t) {
+    t.plan(1);
+
+    t.equals(truncate('something@example.com', 18), 'something@example…', 'should remove trailing dots');
+});
