@@ -20,6 +20,7 @@ module.exports = function () {
         'neither': require('./lib/neither.js'),
         'not-eq': require('./lib/not-eq.js'),
         'number': require('./lib/number.js'),
+        'pack-it': require('./lib/pack-it.js'),
         'paragraphify': require('./lib/paragraphify.js'),
         'possessive': require('./lib/possessive.js'),
         'repeat': require('./lib/repeat.js'),
