@@ -1,6 +1,7 @@
 module.exports = function () {
     return {
         'abbr-count': require('./lib/abbr-count.js'),
+        'calendar': require('./lib/calendar.js'),
         'capitalize': require('./lib/capitalize.js'),
         'chr-gt': require('./lib/chr-gt.js'),
         'chr-lt': require('./lib/chr-lt.js'),
