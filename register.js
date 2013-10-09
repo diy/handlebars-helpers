@@ -1,6 +1,7 @@
 module.exports = function () {
     return {
         'abbr-count': require('./lib/abbr-count.js'),
+        'calendar': require('./lib/calendar.js'),
         'capitalize': require('./lib/capitalize.js'),
         'chr-gt': require('./lib/chr-gt.js'),
         'chr-lt': require('./lib/chr-lt.js'),
@@ -20,6 +21,7 @@ module.exports = function () {
         'neither': require('./lib/neither.js'),
         'not-eq': require('./lib/not-eq.js'),
         'number': require('./lib/number.js'),
+        'pack-it': require('./lib/pack-it.js'),
         'paragraphify': require('./lib/paragraphify.js'),
         'possessive': require('./lib/possessive.js'),
         'repeat': require('./lib/repeat.js'),
