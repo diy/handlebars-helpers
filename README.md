@@ -190,9 +190,9 @@ The third optional argument is the default value. (will get the `selected` attri
 {{paragraphify textWithNewLines}} // <p>first line</p><p>second line</p>
 ```
 
-#### posessive
+#### possessive
 ```
-{{posessive 'john'}} // "john's"
+{{possessive 'john'}} // "john's"
 ```
 
 #### repeat
