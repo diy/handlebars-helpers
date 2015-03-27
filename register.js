@@ -1,32 +1,36 @@
+var helpers = [
+    'abbr-count',
+    'calendar',
+    'capitalize',
+    'chr-gt',
+    'chr-lt',
+    'each-key',
+    'each-limit',
+    'each-reverse',
+    'either',
+    'encodeURIComponent',
+    'eq',
+    'firstof',
+    'if-gt',
+    'if-lt',
+    'indefinite-article',
+    'input-select',
+    'iter',
+    'join',
+    'neither',
+    'not-eq',
+    'number',
+    'pack-it',
+    'paragraphify',
+    'possessive',
+    'repeat',
+    'subtract',
+    'title-case',
+    'urlify'
+];
+
 module.exports = function () {
-    return {
-        'abbr-count': require('./lib/abbr-count.js'),
-        'calendar': require('./lib/calendar.js'),
-        'capitalize': require('./lib/capitalize.js'),
-        'chr-gt': require('./lib/chr-gt.js'),
-        'chr-lt': require('./lib/chr-lt.js'),
-        'each-key': require('./lib/each-key.js'),
-        'each-limit': require('./lib/each-limit.js'),
-        'each-reverse': require('./lib/each-reverse.js'),
-        'either': require('./lib/either.js'),
-        'encodeURIComponent': require('./lib/encodeURIComponent.js'),
-        'eq': require('./lib/eq.js'),
-        'firstof': require('./lib/firstof.js'),
-        'if-gt': require('./lib/if-gt.js'),
-        'if-lt': require('./lib/if-lt.js'),
-        'indefinite-article': require('./lib/indefinite-article.js'),
-        'input-select': require('./lib/input-select.js'),
-        'iter': require('./lib/iter.js'),
-        'join': require('./lib/join.js'),
-        'neither': require('./lib/neither.js'),
-        'not-eq': require('./lib/not-eq.js'),
-        'number': require('./lib/number.js'),
-        'pack-it': require('./lib/pack-it.js'),
-        'paragraphify': require('./lib/paragraphify.js'),
-        'possessive': require('./lib/possessive.js'),
-        'repeat': require('./lib/repeat.js'),
-        'subtract': require('./lib/subtract.js'),
-        'title-case': require('./lib/title-case.js'),
-        'urlify': require('./lib/urlify.js')
-    }
+    return helpers.map(function (helperName) {
+        return require('./lib/' + helperName);
+    });
 };
