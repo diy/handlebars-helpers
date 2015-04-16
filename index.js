@@ -1,5 +1,7 @@
+var path = require('path');
+
 var helpers = require('require-all')({
-    'dirname': __dirname + '/lib',
+    'dirname': path.join(__dirname, '/lib'),
     'filter': /(.+)\.js$/
 });
 
