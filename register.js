@@ -27,6 +27,7 @@ module.exports = function () {
         'repeat': require('./lib/repeat.js'),
         'subtract': require('./lib/subtract.js'),
         'title-case': require('./lib/title-case.js'),
+        'truncate': require('./lib/truncate.js'),
         'urlify': require('./lib/urlify.js')
     }
 };
