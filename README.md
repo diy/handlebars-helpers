@@ -11,7 +11,7 @@ npm install diy-handlebars-helpers
 ### Basic Use
 ```javascript
 var helpers = require('diy-handlebars-helpers');
-helpers(); // returns a dictionary of helpers { name: function () {} }
+// returns a dictionary of helpers { name: function () {} }
 ```
 
 Registering helpers w/ handlebars
